@@ -2237,7 +2237,7 @@
  }
  
  .header {
-     background: #fff;
+     background: none;
      height: 100px;
      height: calc(var(--header-height) - 0.5rem);
      position: fixed;
@@ -2388,3 +2388,152 @@
  .default-primary-btn:hover {
      color: #2f2f2f;
  }
+ 
+ .footer-section {
+     background: #212529!important;
+     padding-top: 80px;
+     padding-bottom: 80px;
+ }
+ 
+ .footer-section-row {
+     background: #1d7590;
+     padding: 18px;
+     margin-bottom: 50px;
+ }
+ 
+ .address {
+     padding: 10px;
+     display: flex;
+ }
+ 
+ .right-text {
+     padding-left: 28px;
+ }
+ 
+ .right-text h3 {
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #fff;
+     font-size: 17px;
+     font-weight: 700;
+ }
+ 
+ .right-text p {
+     margin: 0px;
+     color: #fff;
+     font-size: 15px;
+     line-height: 23px;
+ }
+ 
+ .footer-title {
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #e87f1c;
+     font-size: 20px;
+     margin-bottom: 23px;
+     font-weight: 700;
+     position: relative;
+ }
+ /* .footer-title span::before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 117px;
+    height: 2px;
+    background-color: #f7bb07;
+} */
+ 
+ .footer-title-text {
+     z-index: 999;
+     position: relative;
+ }
+ 
+ .footer-title-underline {
+     height: 1px;
+     background-color: #f7bb07;
+     width: 100%;
+     position: absolute;
+     bottom: 3px;
+     left: 0px;
+ }
+ 
+ .quick-link-list {
+     list-style-type: none;
+     padding: 0px;
+ }
+ 
+ .quick-link-list li a {
+     color: #fff;
+     margin-bottom: 8px;
+     display: block;
+ }
+ 
+ .footer-section-bottom {
+     background: #1d7590;
+     padding: 17px 0px;
+ }
+ 
+ .footer-bottom-left p {
+     margin: 0px;
+     color: #fff;
+ }
+ 
+ .footer-bottom-right p {
+     margin: 0px;
+     color: #fff;
+     text-align: right;
+ }
+ 
+ .footer-bottom-right p a {
+     color: #dcd735;
+ }
+ 
+ .title-transparent {
+     opacity: 0 !important;
+ }
+ 
+ .rssBtn {
+     background: #e88845;
+ }
+ 
+ .rssBtn:before {
+     font-family: "FontAwesome";
+     content: "\f09e";
+     /* add rss icon */
+ }
+ 
+ .rssBtn:hover {
+     color: #e88845;
+     background: #fff;
+     border-color: #e88845;
+ }
+ 
+ .form-control-new {
+     border-radius: 0px;
+     position: relative;
+ }
+ 
+ .form-control-new:before {
+     content: "/f0e0";
+     font-family: FontAwesome;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+ }
+ 
+ .newsletter {
+     color: #fff;
+ }
+ 
+ .subscribe {
+     width: 100%;
+     border-radius: 0px;
+     background: #24829f;
+     border: 1px solid #6ac5e1;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: 600;
+ }
+ 
+ s
